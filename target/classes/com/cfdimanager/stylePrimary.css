@@ -1,0 +1,136 @@
+.backGround{
+    -fx-background-image: url('../media/login.png');
+    -fx-background-size:cover;
+}
+
+.saludo{
+    -fx-background-color:rgba(37, 150, 190,0.5);
+}
+
+.loginBackGround{
+    -fx-background-color:rgb(238,238,228);
+}
+
+.transparent-button {
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-border-radius: 15; /* Ajusta el radio de los bordes según tus preferencias */
+    -fx-text-fill: white;
+    -fx-border-width: 2;
+}
+
+.transparent-button:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+    -fx-border-color: rgba(255, 255, 255, 0.5); /* Nuevo color del borde al pasar el ratón sobre el botón */
+}
+
+/* styles.css */
+
+.sleek-title {
+    -fx-text-fill: #eeeee4;
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+}
+
+.transparent-textfield {
+    -fx-background-color: transparent;
+    -fx-border-color: rgb(180, 180, 180);
+    -fx-border-width: 2;
+    -fx-border-radius: 20;
+    -fx-text-fill: rgb(180, 180, 180);
+}
+
+.transparent-textfield:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+    -fx-border-color: rgb(180, 180, 180);
+}
+
+.transparent-textfield .prompt-text {
+    -fx-text-fill: rgb(119, 119, 119);
+}
+
+/* styles.css */
+
+.formButton {
+    -fx-background-color: transparent;
+    -fx-border-color: rgb(180, 180, 180);
+    -fx-border-width: 2;
+    -fx-border-radius: 20;
+    -fx-text-fill: rgb(180, 180, 180);
+}
+
+.formButton:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+    -fx-border-color: rgb(180, 180, 180);
+}
+
+.formButton .text {
+    -fx-fill: rgb(180, 180, 180);
+}
+/* styles.css */
+
+.transparent-combobox {
+    -fx-background-color: transparent;
+    -fx-border-color: rgb(180, 180, 180);
+    -fx-border-width: 2;
+    -fx-border-radius: 20;
+    -fx-text-fill: rgb(180, 180, 180);
+}
+
+.transparent-combobox:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+    -fx-border-color: rgb(180, 180, 180);
+}
+
+.transparent-combobox .arrow-button {
+    -fx-background-color: transparent;
+    -fx-border-color: rgb(180, 180, 180);
+}
+
+.transparent-combobox .arrow-button:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+    -fx-border-color: rgb(180, 180, 180);
+}
+
+.transparent-combobox .list-cell {
+    -fx-background-color: transparent;
+    -fx-border-color: rgb(180, 180, 180);
+}
+
+.transparent-combobox .list-cell:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+    -fx-border-color: rgb(180, 180, 180);
+}
+
+.transparent-combobox .list-view {
+    -fx-background-color: transparent;
+}
+
+.transparent-combobox .prompt-text {
+    -fx-fill: rgb(180, 180, 180);
+}
+
+/* styles.css */
+
+.transparent-checkbox {
+    -fx-text-fill: rgb(180, 180, 180);
+}
+
+.transparent-checkbox:hover {
+    -fx-text-fill: rgb(255, 255, 255);
+}
+
+.transparent-checkbox .box {
+    -fx-border-color: rgb(180, 180, 180);
+    -fx-border-width: 2;
+    -fx-background-color: transparent;
+}
+
+.transparent-checkbox:selected .box {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+    -fx-border-color: rgb(180, 180, 180);
+}
+
+.transparent-checkbox .label {
+    -fx-text-fill: rgb(180, 180, 180);
+}
